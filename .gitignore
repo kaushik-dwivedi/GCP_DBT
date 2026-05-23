@@ -1,7 +1,8 @@
 # dbt
 logs
 target/
-DBT_GCP\logs
+DBT_GCP/logs
+DBT_GCP/Big_Query_DBT/logs
 
 # Credentials - MOST IMPORTANT
 Credentials/
@@ -10,4 +11,4 @@ Credentials/
 # Environment
 .env
 .venv
-DBT_GCP\Big_Query_DBT\logs
+

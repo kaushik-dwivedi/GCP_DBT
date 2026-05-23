@@ -1,5 +1,12 @@
-.venv
-Credentials
-.env
-__pycache__
+# dbt
+logs/dbt.log
+target/
+DBT_GCP\logs
 
+# Credentials - MOST IMPORTANT
+Credentials/
+*.json
+
+# Environment
+.env
+.venv

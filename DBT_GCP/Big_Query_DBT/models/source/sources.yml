@@ -1,0 +1,9 @@
+version : 2 
+
+sources:
+  - name: source
+    database: internal-data-bigquery-kaushik
+    schema: STAGGING_OLIST  
+    tables:
+      - name: CRM_CUSTOMERS
+    

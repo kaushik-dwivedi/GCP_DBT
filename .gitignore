@@ -1,0 +1,5 @@
+.venv
+Credentials
+.env
+__pycache__
+

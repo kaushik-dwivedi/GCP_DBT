@@ -1,5 +1,5 @@
 # dbt
-logs/dbt.log
+logs
 target/
 DBT_GCP\logs
 
@@ -10,3 +10,4 @@ Credentials/
 # Environment
 .env
 .venv
+DBT_GCP\Big_Query_DBT\logs

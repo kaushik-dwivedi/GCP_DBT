@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('source', 'ERP_ORDER_ITEMS') }}

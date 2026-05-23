@@ -1,9 +1,16 @@
-version : 2 
+version: 2
 
 sources:
   - name: source
     database: internal-data-bigquery-kaushik
-    schema: STAGGING_OLIST  
+    schema: STAGGING_OLIST
     tables:
       - name: CRM_CUSTOMERS
-    
+      - name: CRM_REVIEWS
+      - name: ERP_CATOGRIES
+      - name: ERP_GEOLOCATIONS
+      - name: ERP_ORDERS
+      - name: ERP_ORDER_ITEMS
+      - name: ERP_PAYMENTS
+      - name: ERP_PRODUCTS
+      - name: ERP_SELLERS

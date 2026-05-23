@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('source', 'CRM_REVIEWS') }}
